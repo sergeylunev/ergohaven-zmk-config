@@ -164,7 +164,7 @@
             bindings = <
   &en TILDE               &en LT          &kp EQUAL         &en GT           &en GRAVE                       &en CARET  &en LBKT  &kp UNDER           &en RBKT      &en DLLR
   &hml LGUI RU_BACKSLASH  &hml LALT LPAR  &hml LSHFT MINUS  &hml LCTRL RPAR  &kp PLUS                        &kp PRCNT  &en LBRC  &hmr RSHFT RU_SEMI  &en RBRC      &hmr RGUI EXCL
-  &en HASH                &kp STAR        &kp RU_COLON      &kp RU_DOT       &en RU_COMMA                    &en AT     &en PIPE  &kp AMPERSAND       &kp RU_SLASH  &kp RU_QMARK
+  &en HASH                &kp STAR        &en COLON         &kp RU_DOT       &en RU_COMMA                    &en AT     &en PIPE  &kp AMPERSAND       &kp RU_SLASH  &kp RU_QMARK
                                                             &trans           &mo 5         &trans    &trans  &none      &trans
             >;
 
