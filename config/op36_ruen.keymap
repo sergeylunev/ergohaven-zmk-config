@@ -152,8 +152,8 @@
         sym_en {
             bindings = <
   &kp TILDE       &kp LT          &kp EQUAL         &kp GT           &kp GRAVE                    &kp CARET  &kp LBKT         &kp UNDER        &kp RBKT        &kp DLLR
-  &hml LGUI BSLH  &hml LALT LPAR  &hml LSHFT MINUS  &hml LCTRL RPAR  &kp PLUS                     &kp PRCNT  &hmr RCTRL LBRC  &hmr RSHFT SEMI  &hmr LALT RBRC  &hmr RGUI EXCL
-  &kp HASH        &kp STAR        &kp COLON         &kp DOT          &kp COMMA                    &kp AT     &kp PIPE         &kp AMPERSAND    &kp SLASH       &kp QMARK
+  &hml LGUI BSLH  &hml LALT LPAR  &hml LSHFT COLON  &hml LCTRL RPAR  &kp PLUS                     &kp PRCNT  &hmr RCTRL LBRC  &hmr RSHFT SEMI  &hmr LALT RBRC  &hmr RGUI EXCL
+  &kp HASH        &kp STAR        &kp MINUS         &kp COMMA        &kp DOT                      &kp AT     &kp PIPE         &kp AMPERSAND    &kp SLASH       &kp QMARK
                                                     &trans           &mo 5      &trans    &trans  &none      &trans
             >;
 
@@ -162,10 +162,10 @@
 
         sym_ru {
             bindings = <
-  &en TILDE               &en LT          &kp EQUAL         &en GT           &en GRAVE                       &en CARET  &en LBKT  &kp UNDER           &en RBKT      &en DLLR
-  &hml LGUI RU_BACKSLASH  &hml LALT LPAR  &hml LSHFT MINUS  &hml LCTRL RPAR  &kp PLUS                        &kp PRCNT  &en LBRC  &hmr RSHFT RU_SEMI  &en RBRC      &hmr RGUI EXCL
-  &en HASH                &kp STAR        &en COLON         &kp RU_DOT       &kp RU_COMMA                    &en AT     &en PIPE  &kp AMPERSAND       &kp RU_SLASH  &kp RU_QMARK
-                                                            &trans           &mo 5         &trans    &trans  &none      &trans
+  &en TILDE               &en LT          &kp EQUAL            &en GT           &en GRAVE                     &en CARET  &en LBKT  &kp UNDER           &en RBKT      &en DLLR
+  &hml LGUI RU_BACKSLASH  &hml LALT LPAR  &hml LSHFT RU_COLON  &hml LCTRL RPAR  &kp PLUS                      &kp PRCNT  &en LBRC  &hmr RSHFT RU_SEMI  &en RBRC      &hmr RGUI EXCL
+  &en HASH                &kp STAR        &en MINUS            &kp RU_COMMA     &kp RU_DOT                    &en AT     &en PIPE  &kp AMPERSAND       &kp RU_SLASH  &kp RU_QMARK
+                                                               &trans           &mo 5       &trans    &trans  &none      &trans
             >;
 
             display-name = "Symbols";
