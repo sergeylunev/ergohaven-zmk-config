@@ -106,10 +106,10 @@
 
         nav {
             bindings = <
-&kp ESC       &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                    &kp PLUS  &kp MINUS      &kp EQUAL    &kp STAR         &kp SLASH  &trans
-&kp LEFT_ALT  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0                    &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT_ARROW  &trans     &kp LEFT_GUI
-&trans        &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END          &trans     &trans
-                                      &trans  &trans  &trans    &trans  &mo 5     &trans
+&kp ESC       &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                        &kp PLUS  &kp MINUS      &kp EQUAL    &kp STAR         &kp SLASH        &trans
+&kp LEFT_ALT  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0                        &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT_ARROW  &trans           &kp LEFT_GUI
+&trans        &trans  &trans  &trans  &trans  &trans  &trans    &kp DELETE  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END          &kp PRINTSCREEN  &trans
+                                      &trans  &trans  &trans    &trans      &mo 5     &trans
             >;
 
             display-name = "Nav";
@@ -117,10 +117,10 @@
 
         sym_en {
             bindings = <
-&trans  &kp AT    &kp LT    &kp EQUAL  &kp GT    &kp GRAVE                    &trans     &kp LBKT  &kp UNDER  &kp RBKT  &trans    &trans
-&trans  &kp BSLH  &kp LPAR  &kp MINUS  &kp RPAR  &kp PLUS                     &kp PRCNT  &kp LBRC  &kp SEMI   &kp RBRC  &kp EXCL  &kp QUESTION
-&trans  &kp HASH  &kp STAR  &kp COLON  &kp FSLH  &trans     &trans    &trans  &trans     &kp PIPE  &kp TILDE  &kp AMPS  &kp DOT   &trans
-                                       &trans    &mo 5      &trans    &trans  &trans     &trans
+&trans         &kp TILDE  &kp LT    &kp EQUAL  &kp GT     &kp GRAVE                    &kp CARET    &kp LBKT  &kp UNDER  &kp RBKT   &kp DOLLAR    &trans
+&trans         &kp BSLH   &kp LPAR  &kp COLON  &kp RPAR   &kp PLUS                     &kp PRCNT    &kp LBRC  &kp SEMI   &kp RBRC   &kp EXCL      &trans
+&kp RU_NUMERO  &kp HASH   &kp STAR  &kp MINUS  &kp COMMA  &kp DOT    &trans    &trans  &kp AT_SIGN  &kp PIPE  &kp AMPS   &kp SLASH  &kp QUESTION  &trans
+                                               &trans     &mo 5      &trans    &trans  &trans       &trans
             >;
 
             display-name = "Symbols";
@@ -129,10 +129,10 @@
         sym_ru {
             display-name = "Symbols";
             bindings = <
-&trans  &en AT_SIGN  &en LT        &kp EQUAL     &en GT       &en GRAVE                        &trans          &en LBKT  &kp UNDER    &en RBKT  &trans      &trans
-&trans  &kp RU_BSLH  &kp LPAR      &kp MINUS     &kp RPAR     &kp PLUS                         &kp RU_PERCENT  &en LBRC  &kp RU_SEMI  &kp RBRC  &kp EXCL    &kp RU_QUESTION
-&trans  &en HASH     &kp RU_ASTRK  &kp RU_COLON  &kp RU_FSLH  &kp RU_NUMERO  &trans    &trans  &trans          &en PIPE  &en TILDE    &en AMPS  &kp RU_DOT  &trans
-                                                 &trans       &mo 5          &trans    &trans  &trans          &trans
+&trans         &en TILDE    &en LT        &kp EQUAL     &en GT        &en GRAVE                     &en CARET       &en LBKT  &kp UNDER    &en RBKT     &en DOLLAR          &trans
+&trans         &kp RU_BSLH  &kp LPAR      &kp RU_COLON  &kp RPAR      &kp PLUS                      &kp RU_PERCENT  &en LBRC  &kp RU_SEMI  &kp RBRC     &kp RU_EXCLAMATION  &trans
+&kp RU_NUMERO  &en HASH     &kp RU_ASTRK  &kp MINUS     &kp RU_COMMA  &kp RU_DOT  &trans    &trans  &en AT_SIGN     &en PIPE  &en AMPS     &en RU_FSLH  &kp RU_QMARK        &trans
+                                                        &trans        &mo 5       &trans    &trans  &trans          &trans
             >;
         };
 
