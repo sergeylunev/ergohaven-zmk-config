@@ -127,10 +127,10 @@
 
         sym_en {
             bindings = <
-&trans         &kp TILDE  &kp LT    &kp EQUAL  &kp GT     &kp GRAVE                    &kp CARET    &kp LBKT  &kp UNDER  &kp RBKT   &kp DOLLAR    &trans
-&trans         &kp BSLH   &kp LPAR  &kp COLON  &kp RPAR   &kp PLUS                     &kp PRCNT    &kp LBRC  &kp SEMI   &kp RBRC   &kp EXCL      &trans
-&kp RU_NUMERO  &kp HASH   &kp STAR  &kp MINUS  &kp COMMA  &kp DOT    &trans    &trans  &kp AT_SIGN  &kp PIPE  &kp AMPS   &kp SLASH  &kp QUESTION  &trans
-                                               &trans     &mo 5      &trans    &trans  &trans       &trans
+&trans         &kp TILDE  &kp LT    &kp EQUAL  &kp GT     &kp GRAVE                                         &kp CARET    &kp LBKT  &kp UNDER  &kp RBKT   &kp DOLLAR    &trans
+&trans         &kp BSLH   &kp LPAR  &kp COLON  &kp RPAR   &kp PLUS                                          &kp PRCNT    &kp LBRC  &kp SEMI   &kp RBRC   &kp EXCL      &trans
+&kp RU_NUMERO  &kp HASH   &kp STAR  &kp MINUS  &kp COMMA  &kp DOT    &kp SINGLE_QUOTE    &kp DOUBLE_QUOTES  &kp AT_SIGN  &kp PIPE  &kp AMPS   &kp SLASH  &kp QUESTION  &trans
+                                               &trans     &mo 5      &trans              &trans             &trans       &trans
             >;
 
             display-name = "Symbols";
@@ -139,10 +139,10 @@
         sym_ru {
             display-name = "Symbols";
             bindings = <
-&trans         &en TILDE    &en LT        &kp EQUAL     &en GT        &en GRAVE                     &en CARET       &en LBKT  &kp UNDER    &en RBKT     &en DOLLAR          &trans
-&trans         &kp RU_BSLH  &kp LPAR      &kp RU_COLON  &kp RPAR      &kp PLUS                      &kp RU_PERCENT  &en LBRC  &kp RU_SEMI  &kp RBRC     &kp RU_EXCLAMATION  &trans
-&kp RU_NUMERO  &en HASH     &kp RU_ASTRK  &kp MINUS     &kp RU_COMMA  &kp RU_DOT  &trans    &trans  &en AT_SIGN     &en PIPE  &en AMPS     &en RU_FSLH  &kp RU_QMARK        &trans
-                                                        &trans        &mo 5       &trans    &trans  &trans          &trans
+&trans         &en TILDE    &en LT        &kp EQUAL     &en GT        &en GRAVE                                             &en CARET       &en LBKT  &kp UNDER    &en RBKT     &en DOLLAR          &trans
+&trans         &kp RU_BSLH  &kp LPAR      &kp RU_COLON  &kp RPAR      &kp PLUS                                              &kp RU_PERCENT  &en LBRC  &kp RU_SEMI  &kp RBRC     &kp RU_EXCLAMATION  &trans
+&kp RU_NUMERO  &en HASH     &kp RU_ASTRK  &kp MINUS     &kp RU_COMMA  &kp RU_DOT  &en SINGLE_QUOTE    &kp RU_DOUBLE_QUOTES  &en AT_SIGN     &en PIPE  &en AMPS     &en RU_FSLH  &kp RU_QMARK        &trans
+                                                        &trans        &mo 5       &trans              &trans                &trans          &trans
             >;
         };
 
