@@ -140,7 +140,7 @@
             display-name = "Symbols";
             bindings = <
 &trans         &en TILDE    &en LT        &kp EQUAL     &en GT        &en GRAVE                                             &en CARET       &en LBKT  &kp UNDER    &en RBKT     &en DOLLAR          &trans
-&trans         &kp RU_BSLH  &kp LPAR      &kp RU_COLON  &kp RPAR      &kp PLUS                                              &kp RU_PERCENT  &en LBRC  &kp RU_SEMI  &kp RBRC     &kp RU_EXCLAMATION  &trans
+&trans         &kp RU_BSLH  &kp LPAR      &kp RU_COLON  &kp RPAR      &kp PLUS                                              &kp RU_PERCENT  &en LBRC  &kp RU_SEMI  &en RBRC     &kp RU_EXCLAMATION  &trans
 &kp RU_NUMERO  &en HASH     &kp RU_ASTRK  &kp MINUS     &kp RU_COMMA  &kp RU_DOT  &en SINGLE_QUOTE    &kp RU_DOUBLE_QUOTES  &en AT_SIGN     &en PIPE  &en AMPS     &kp RU_FSLH  &kp RU_QMARK        &trans
                                                         &trans        &mo 5       &trans              &trans                &trans          &trans
             >;
